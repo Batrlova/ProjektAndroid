@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.diana.myapplicationengtester.ActivityVyber">
+
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bt2"
+        android:layout_alignStart="@+id/bt2"
+        android:layout_below="@+id/tvSlovo"
+        android:layout_marginTop="20dp"
+        android:text="Button"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bt3"
+        android:layout_alignStart="@+id/bt3"
+        android:layout_below="@+id/bt1"
+        android:layout_marginTop="14dp"
+        android:text="Button"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bt4"
+        android:layout_alignStart="@+id/bt4"
+        android:layout_below="@+id/bt2"
+        android:layout_marginTop="18dp"
+        android:text="Button"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/bt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btNext"
+        android:layout_alignStart="@+id/btNext"
+        android:layout_below="@+id/bt3"
+        android:layout_marginTop="22dp"
+        android:text="Button"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvSlovo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="53dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="31dp"
+        android:layout_marginEnd="61dp"
+        android:text="Exit" />
+
+    <Button
+        android:id="@+id/btNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btExit"
+        android:layout_alignBottom="@+id/btExit"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="36dp"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/btInf1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt1"
+        android:layout_alignBottom="@+id/bt1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Info" />
+
+    <Button
+        android:id="@+id/btInf2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bt3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Info" />
+
+    <Button
+        android:id="@+id/btInf3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bt3"
+        android:layout_alignLeft="@+id/btInf2"
+        android:layout_alignStart="@+id/btInf2"
+        android:text="Info" />
+
+    <Button
+        android:id="@+id/btInf4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bt4"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Info" />
+
+
+</RelativeLayout>
